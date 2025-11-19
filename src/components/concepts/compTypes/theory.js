@@ -32,7 +32,13 @@
 //     }
 // }
 
-// States :  Data that belongs to the component itself and it changes overtime . Useful in managing data.
+// States :  Data that belongs to the component itself and it changes overtime . Useful in managing data. Managed using useState or setState
 
-// Props(Properties) : Used for passing data from one component to another component (like from parent to child)
+// Props(Properties) : Used for passing data from one component to another component (like from parent to child). It is read only mode where
+// child cant modify the data.
+
+// CRA has 3-folders and 4-files and it has all JavaScript files declared init.
+// Vite has 3-folders and 4+-files and it has JSX files declared init.
+
+// Current React version is 19
 
