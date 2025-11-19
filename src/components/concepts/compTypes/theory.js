@@ -31,3 +31,8 @@
 //         )
 //     }
 // }
+
+// States :  Data that belongs to the component itself and it changes overtime . Useful in managing data.
+
+// Props(Properties) : Used for passing data from one component to another component (like from parent to child)
+
