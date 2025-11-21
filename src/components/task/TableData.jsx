@@ -32,7 +32,7 @@ export default function TableData() {
           </thead>
 
           <tbody>
-            {data.map((item) => (
+            {data.map( item => (
               <tr className="border-t border-gray-300 hover:bg-gray-100 transition">
                 <td className="py-2 px-4">{item.id}</td>
                 <td className="py-2 px-4">{item.title}</td>
