@@ -39,7 +39,7 @@ export default function TableData() {
                 <td className={`py-2 px-4 font-semibold ${
                     item.completed ? "text-green-600" : "text-red-600"
                   }`}>
-                  {item.completed ? "Done" : "Pending"}
+                  {item.completed ? "Yes" : "No"}
                 </td>
               </tr>
             ))}
