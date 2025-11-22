@@ -9,7 +9,6 @@ export default function TableData() {
     fetch(apiFetch)
       .then((res) => res.json())
       .then((data) => {
-        console.log(data);
         setData(data);
       })
       .catch((err) => console.log(err));
